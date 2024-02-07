@@ -1,1 +1,9 @@
 select * from emp;
+
+select * from delpt;
+
+create function f1( n in number)
+return number
+begin
+  return n*2;
+end;
