@@ -6,5 +6,6 @@ create function f1( n in number)
 return number
 begin
 n:=n+1;
+n:=n*2; --adding cr-20
   return n*3; --changes 2
 end;
