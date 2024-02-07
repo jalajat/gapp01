@@ -5,5 +5,5 @@ select * from delpt;
 create function f1( n in number)
 return number
 begin
-  return n*2;
+  return n*3; --changes 2
 end;
