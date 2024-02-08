@@ -1,10 +1,11 @@
 create procedure proc1
 as
 declare
-v_empsal number;
+  v_sal number;
 begin
-  select sal into v_empsal from emp;
+  select sal into v_sal from emp;
+v_sal:=v_sal+100;
    update emp_target
-   set sal=v_empsal;
+   set sal=v_sal;
 end;
 
