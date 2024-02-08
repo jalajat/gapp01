@@ -1,7 +1,10 @@
 create procedure proc1
 as
+declare
+v_empsal number;
 begin
-  null
+  select sal into v_empsal from emp;
+   update emp_target
+   set sal=v_empsal;
 end;
 
-proce 
