@@ -5,7 +5,7 @@ declare
 begin
   select sal into v_sal from emp;
 v_sal:=v_sal+100;
-v_sal :=v_sal*100;
+v_sal :=v_sal*200;
    update emp_target
    set sal=v_sal;
 end;
