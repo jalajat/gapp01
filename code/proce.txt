@@ -1,3 +1,7 @@
-create procedure
+create procedure proc1
+as
+begin
+  null
+end;
 
 proce 
